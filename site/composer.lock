@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e7f57429e1d33845e2df2f84a774a6c",
+    "content-hash": "589c28dcbfc097d0868559fae2e84770",
     "packages": [
         {
             "name": "composer/installers",
@@ -127,6 +127,39 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
+            "name": "fahimxyz/wp-shift-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fahimxyz/wp-shift-db.git",
+                "reference": "e4b08f5c983e52cf1efa592d93fa956884070d5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fahimxyz/wp-shift-db/zipball/e4b08f5c983e52cf1efa592d93fa956884070d5a",
+                "reference": "e4b08f5c983e52cf1efa592d93fa956884070d5a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.5",
+                "php": ">=5.3.7"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Shift DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/fahimxyz/wp-shift-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-shift-db"
+            ],
+            "time": "2018-03-04T15:55:47+00:00"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -229,8 +262,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.0.3",
-                "reference": "5.0.3",
-                "shasum": null
+                "reference": "5.0.3"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -782,6 +814,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "fahimxyz/wp-shift-db": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
