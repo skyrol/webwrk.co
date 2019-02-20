@@ -40,7 +40,8 @@
     "roots/wordpress": "5.0.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "fahimxyz/wp-shift-db": "dev-master@dev"
+    "fahimxyz/wp-shift-db": "dev-master@dev",
+    "dawidurbanski/wp-sync-db-media-files": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

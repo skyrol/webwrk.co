@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "589c28dcbfc097d0868559fae2e84770",
+    "content-hash": "e98935d16dd2f58980ae930227c75e6a",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,38 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "dawidurbanski/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dawidurbanski/wp-sync-db-media-files.git",
+                "reference": "791aa5dd583e7a89ec89fffc041782e578721562"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dawidurbanski/wp-sync-db-media-files/zipball/791aa5dd583e7a89ec89fffc041782e578721562",
+                "reference": "791aa5dd583e7a89ec89fffc041782e578721562",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2019-02-09T06:37:26+00:00"
         },
         {
             "name": "fahimxyz/wp-shift-db",
@@ -815,6 +847,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "fahimxyz/wp-shift-db": 20,
+        "dawidurbanski/wp-sync-db-media-files": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
