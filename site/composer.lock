@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e98935d16dd2f58980ae930227c75e6a",
+    "content-hash": "d1f793a9f5798e664ed2f6056a4b897b",
     "packages": [
         {
             "name": "composer/installers",
@@ -285,16 +285,17 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.0.3",
+            "version": "5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.0.3"
+                "reference": "5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.0.3",
-                "reference": "5.0.3"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1",
+                "reference": "5.1",
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.2",
@@ -318,7 +319,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-01-09T18:28:14+00:00"
+            "time": "2019-02-22T00:57:46+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -520,7 +521,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -590,17 +591,6 @@
         {
             "name": "roave/security-advisories",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "54ee79a17e8cdc4ff8a1570198d5bc669a5803b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/54ee79a17e8cdc4ff8a1570198d5bc669a5803b8",
-                "reference": "54ee79a17e8cdc4ff8a1570198d5bc669a5803b8",
-                "shasum": ""
-            },
             "conflict": {
                 "3f/pygmentize": "<1.2",
                 "adodb/adodb-php": "<5.20.12",
